@@ -1,0 +1,27 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+#### My name : *Sun Woo, Jang*
+
+#### College : *Incheon National University* [link](http://www.inu.ac.kr/mbshome/mbs/inu/index.do)
+
+#### Major : Information and Telecommunication Engineering [link]([http://ite.inu.ac.kr/](http://ite.inu.ac.kr/ssoIn.do?siteId=ite))
+
+#### Hobby : playing game, instruments
+
+------------
+
+-------------
+
+
+
+Introduce : I love playing game and playing instruments. I playing League Of Legends, CS : GO,  Tetris, etc... If you play game with me, connect my discord.
+
+LOL : DoctorSolution
+
+Steam : Echuhi
+
+Discord : 에추히 #0026
