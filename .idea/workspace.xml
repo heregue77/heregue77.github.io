@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6597ea63-d1e8-4e9d-aff0-77e656292a7b" name="Default Changelist" comment="" />
+    <list default="true" id="6597ea63-d1e8-4e9d-aff0-77e656292a7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/poop" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aetcH7lvbGyUEGmBmXaTG0vRXA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,10 +38,26 @@
       <option name="presentableId" value="Default" />
       <updated>1587107964455</updated>
       <workItem from="1587107966710" duration="26000" />
+      <workItem from="1587478644601" duration="124000" />
+      <workItem from="1587478797272" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587478763681">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1587478763681" />
+    <state x="524" y="258" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587478665740">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="524" y="258" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1587478665740" />
+    <state x="352" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1587478796816">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="352" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1587478796816" />
   </component>
 </project>
