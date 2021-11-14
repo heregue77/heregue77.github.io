@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-#### My name : *Sun Woo, Jang*
+#### *Echuhi*
 
 #### College : *Incheon National University* [link](http://www.inu.ac.kr/mbshome/mbs/inu/index.do)
 
@@ -18,10 +18,9 @@ permalink: /about/
 
 
 
-Introduce : I love playing game and playing instruments. I playing League Of Legends, CS : GO,  Tetris, etc... If you play game with me, connect my discord.
-
-LOL : DoctorSolution
+Introduce : I love playing game and playing instruments. I playing LostArk, League Of Legends, CS : GO,  Tetris, etc... If you play game with me, connect my discord.
 
 Steam : Echuhi
 
-Discord : 에추히 #0026
+LostArk : EchuhiL
+
