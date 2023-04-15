@@ -1,20 +1,63 @@
 /*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-  INSERT YOUR SECTION/TA NAME
+  Name: SunWoo Jang
+  Date: April 15, 2023
+  Section: IAB 6068
 
-  WRITE A 2-3 SENTENCE SHORT FILE DESCRIPTION HERE
+  This is the styles.css page for my portfolio of web development work.
+  It is used by all pages in my portfolio to give the site a consistent look and feel.
 */
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
 
 /*
   Remember: This body ruleset is to get you started, but does not count
   towards the CSP requirements!
 */
 body {
-  background-color: lightsteelblue;
-  font-family: "Helvetica", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+	background-color: lightsteelblue;
+	font-family: 'Helvetica', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-left: 10px;
+}
+
+li {
+	list-style: none;
+}
+
+section img {
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+article {
+	border-radius: 10px;
+	background-color: blanchedalmond;
+	padding: 0 10px 1px 10px;
+}
+
+article > h3 {
+	margin-bottom: 0;
+}
+
+blockquote > p {
+	text-align: center;
+	font-style: italic;
+}
+
+blockquote > footer {
+	text-align: right;
+	font-size: 12px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer img {
+	width: 80%;
 }
