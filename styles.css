@@ -44,9 +44,12 @@ article > h3 {
 	margin-bottom: 0;
 }
 
+blockquote {
+  font-style: italic;
+}
+
 blockquote > p {
 	text-align: center;
-	font-style: italic;
 }
 
 blockquote > footer {
