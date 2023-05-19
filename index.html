@@ -12,11 +12,26 @@
 -->
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="/styles.css" />
+		<script src="/index.js"></script>
 		<title>git Pages</title>
 	</head>
 	<body>
 		<h1>201901714 장선우</h1>
 		<a href="/about.html">about me</a>
+		<br />
+		<div id="todo">
+			<h2>TODO List</h2>
+			<ul id="list">
+				<li>
+					<span>Make TODO List</span>
+					<button class="didBtn">Did</button>
+					<button class="removeBtn">Remove</button>
+				</li>
+			</ul>
+			<button id="addBtn">Add</button>
+			<input type="text" id="inputText" />
+		</div>
+		<div id="did"></div>
 	</body>
 </html>
