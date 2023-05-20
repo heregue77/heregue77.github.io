@@ -7,31 +7,51 @@
 
   This is the index.html page for my portfolio of web development work.
   It includes links to side projects I have done during IAB 6068,
-  including an about page, a blog template
+  including an about page, a blog template.
+  Also, it has TODO List.
   ***
 -->
 <html lang="en">
-	<head>
-		<link rel="stylesheet" href="/styles.css" />
-		<script src="/index.js"></script>
-		<title>git Pages</title>
-	</head>
-	<body>
-		<h1>201901714 장선우</h1>
-		<a href="/about.html">about me</a>
-		<br />
-		<div id="todo">
-			<h2>TODO List</h2>
-			<ul id="list">
-				<li>
-					<span>Make TODO List</span>
-					<button class="didBtn">Did</button>
-					<button class="removeBtn">Remove</button>
-				</li>
-			</ul>
-			<button id="addBtn">Add</button>
-			<input type="text" id="inputText" />
-		</div>
-		<div id="did"></div>
-	</body>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="index.js"></script>
+  <title>git Pages</title>
+</head>
+
+<body>
+  <h1>201901714 장선우</h1>
+  <a href="about.html">about me</a>
+  <br />
+
+  <h2>TODO List</h2>
+  <div id="todo-container">
+    <div class="todo">
+      <div class="date-container">
+        <h3>Date:</h3>
+      </div>
+      <ul class="list-container">
+        <li>
+          <span>Click Did and Remove button to know how it works! -></span>
+          <button class="didBtn">Did</button>
+          <button class="removeBtn">Remove</button>
+        </li>
+      </ul>
+      <button id="addBtn">Add</button>
+      <input type="text" class="inputText" />
+    </div>
+  </div>
+  <div id="date-setting-container">
+    <div id="date-add">
+      <span class="date-setting">Do you need another day for your list?</span>
+      <input class="date-setting" id="date" type="date" />
+      <button class="date-setting" id="add-date">add date!</button>
+    </div>
+    <div id="date-delete">
+      <span class="date-setting">Do you want to delete last element of your list?</span>
+      <button class="date-setting" id="delete-date">delete!</button>
+    </div>
+  </div>
+</body>
+
 </html>

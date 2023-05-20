@@ -13,9 +13,9 @@
 }
 
 /*
-  Remember: This body ruleset is to get you started, but does not count
-  towards the CSP requirements!
-*/
+   Remember: This body ruleset is to get you started, but does not count
+   towards the CSP requirements!
+ */
 body {
 	background-color: lightsteelblue;
 	font-family: 'Helvetica', sans-serif;
@@ -24,12 +24,18 @@ body {
 	width: 80%;
 }
 
-#todo {
+.todo {
 	display: flex;
 	align-items: center;
 	border-style: solid;
 	margin: 10px;
 	padding: 10px;
+}
+
+.date-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
 
 #addBtn {
@@ -40,8 +46,27 @@ body {
 	text-decoration: line-through;
 }
 
-#list button {
+.list-container button {
 	background-color: transparent;
+}
+
+#date-add, #date-delete, #date-setting-container {
+	display: flex;
+	justify-content: right;
+}
+
+#date-setting-container {
+	flex-direction: column;
+}
+
+/* date-setting에 margin 주기 */
+.date-setting {
+	margin: 15px;
+}
+
+/* list-container에 들어간 버튼 margin */
+.didBtn, .removeBtn {
+	margin: 5px;
 }
 
 /* 리스트 스타일 none */
@@ -57,10 +82,7 @@ section img {
 }
 
 /* italic체 지정 */
-h1,
-h2,
-h3,
-blockquote {
+h1, h2, h3, blockquote {
 	font-style: italic;
 }
 
