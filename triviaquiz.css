@@ -1,0 +1,96 @@
+/*
+  Name: SunWoo Jang, JungHeum Woo
+  Date: June 02, 2023
+  Section: IAB 6068
+  trivia quiz의 css 부분
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+	background-color: #f5f5dc;
+	font-family: 'Helvetica', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 2px 2px gray;
+}
+
+/* quiz-container 부분 */
+#quiz-container {
+	background-color: #eeeeee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	margin-bottom: 30px;
+}
+
+#quiz-setting-container,
+#quiz-appear-box,
+.end-game-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+#quiz-count-setting,
+#quiz-category-setting,
+#quiz-difficulty-setting,
+#quiz-type-setting {
+	width: 60%;
+	height: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#start-quiz-button {
+	width: 30%;
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: rgb(241, 215, 131);
+}
+
+#quiz-ans-container {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#quiz-ans-container button {
+	margin-right: 10px;
+	height: 30px;
+	background-color: rgb(241, 215, 131);
+}
+
+/* dic-container 부분 */
+#dic-container {
+	background-color: #eeeeee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	margin-bottom: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+/* 우선순위떄문에 위의 hidden class추가 해줘도 안됨 */
+#quiz-setting-container.hidden,
+#quiz-appear-box.hidden {
+	display: none;
+}
