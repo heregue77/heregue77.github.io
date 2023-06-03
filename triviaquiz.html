@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+  ***
+  Name: SunWoo Jang, JungHeum Woo
+  Date: June 02, 2023
+  Section: IAB 6068
+
+  우정흠 학생과 2인 합작으로 만든 페이지
+  우정흠 학생이 퀴즈, 나는 단어 검색 사전 API를 사용해서 페이지를 제작함
+  ***
+-->
+<html lang="en">
+	<meta charset="UTF-8" />
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="triviaquiz.js"></script>
+		<title>Trivia Quiz</title>
+	</head>
+	<body>
+		<h1>Trivia Quiz</h1>
+		<main>
+			<section id="quiz-container">
+				<div id="quiz-setting-container">
+					<h2>How many questions do you want?</h2>
+					<input
+						type="number"
+						id="quiz-count-setting"
+						min="1"
+						max="50"
+						value="1"
+					/>
+
+					<h2>What category do you want to solve?</h2>
+					<select id="quiz-category-setting">
+						<option value="any">Any Category</option>
+						<option value="9">General Knowledge</option>
+						<option value="10">Entertainment: Books</option>
+						<option value="11">Entertainment: Film</option>
+						<option value="12">Entertainment: Music</option>
+						<option value="13">Entertainment: Musicals &amp; Theatres</option>
+						<option value="14">Entertainment: Television</option>
+						<option value="15">Entertainment: Video Games</option>
+						<option value="16">Entertainment: Board Games</option>
+						<option value="17">Science and Nature</option>
+						<option value="18">Science: Computers</option>
+						<option value="19">Science: Mathematics</option>
+						<option value="20">Mythology</option>
+						<option value="21">Sports</option>
+						<option value="22">Geography</option>
+						<option value="23">History</option>
+						<option value="24">Politics</option>
+						<option value="25">Art</option>
+						<option value="26">Celebrities</option>
+						<option value="27">Animals</option>
+						<option value="28">Vehicles</option>
+						<option value="29">Entertainment: Comics</option>
+						<option value="30">Science: Gadgets</option>
+						<option value="31">Entertainment: Japanese Anime and Manga</option>
+						<option value="32">Entertainment: Cartoon and Animations</option>
+					</select>
+
+					<h2>What difficulty do you want?</h2>
+					<select id="quiz-difficulty-setting">
+						<option value="any">Any Difficulty</option>
+						<option value="easy">Easy</option>
+						<option value="medium">Medium</option>
+						<option value="hard">Hard</option>
+					</select>
+
+					<h2>What type do you want?</h2>
+					<select id="quiz-type-setting" class="form-control">
+						<option value="any">Any Type</option>
+						<option value="multiple">Multiple Choice</option>
+						<option value="boolean">True / False</option>
+					</select>
+
+					<button id="start-quiz-button">Start quiz!</button>
+				</div>
+				<div id="quiz-appear-box" class="hidden">
+					<h2>Question</h2>
+					<span id="quiz-question"></span>
+					<h2>Category</h2>
+					<span id="quiz-category"></span>
+					<h2>Difficulty</h2>
+					<span id="quiz-difficulty"></span>
+					<h2>Pick your answer</h2>
+					<div id="quiz-ans-container"></div>
+				</div>
+			</section>
+
+
+			<section id="dic-container">
+				<div id="search-control">
+					<input 
+						id="dictionary-button" 
+						type="radio" 
+						name="dic" 
+						value="dictionary" 
+						checked
+					>Dictionary
+					<input 
+						id="thesaurus-button" 
+						type="radio" 
+						name="dic" 
+						value="thesaurus"
+					>Thesaurus
+					<input id="input-word" type="text">
+					<input id="search-button" type="submit" value="find">
+				</div>
+
+				<div id="search-result">
+					<p>Search the Word</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<span>
+				The api source is from
+				<a href="https://opentdb.com/api_config.php">here,</a>
+				<a href="https://www.dictionaryapi.com/products/index">and here!</a>
+			</span>
+		</footer>
+	</body>
+</html>
